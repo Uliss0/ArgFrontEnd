@@ -1,0 +1,15 @@
+#logoAp{
+width: 150px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redes{
+    margin-right: 5px;
+}
+img{
+    width: 40px;
+    margin-right: 3px;
+}

@@ -1,0 +1,41 @@
+
+.row{
+    background-color: lightskyblue;
+    padding: 20px;
+    
+}
+
+.contenedor{
+    width: auto;
+}
+
+
+.parte1, .parte2{
+    display: inline-block;
+    text-align: justify;
+    
+}
+
+.parte3, .parte4{
+  
+    display: inline-block;
+    text-align: justify;
+    
+}
+.parte2,.parte4{
+    height:200px;
+    width: 200px;
+}
+.img-mundos{
+    
+    width: auto; 
+    max-height: 100%; 
+    box-shadow: 5px 5px 5px black;
+}
+.img-todo{
+   
+    width: auto; 
+    max-height: 100%; 
+    box-shadow: 5px 5px 5px black;
+   
+}

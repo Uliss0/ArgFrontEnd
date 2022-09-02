@@ -1,0 +1,31 @@
+.row{
+    padding: 50px;
+}
+div{
+    background-color: lightskyblue;
+}
+
+
+
+
+ @media ( min-width : 1000px ) {
+     #fotoperfil {
+            position: absolute;
+            top: 600px ;
+            left: 3% ;
+            border-radius : 100% ;
+            width: 15% ;
+            /*box-shadow : 3px 3px 20px white ; */       
+            border-width: 10px;
+            border-style: solid;
+            border-color: lightskyblue;
+        }   }  
+
+@media ( max-width : 575px ) {
+    #fotoperfil {
+       /*border-radius : 100% ;
+       box-shadow : 3px 3px 3px white     ; */
+        left: 3% ;
+        top: 200px ;
+       position: absolute;
+       width: 25% ;}}  
