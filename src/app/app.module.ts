@@ -13,6 +13,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ProyectsComponent } from './components/proyects/proyects.component';
 import { FooterComponent } from './components/footer/footer.component';
+import {HttpClient, HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -27,10 +28,12 @@ import { FooterComponent } from './components/footer/footer.component';
         SkillsComponent,
         ProyectsComponent,
         FooterComponent
+        
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     NgCircleProgressModule.forRoot({
       // set defaults here
       radius: 100,
