@@ -2,7 +2,7 @@
     padding: 50px;
 }
 div{
-    background-color: lightskyblue;
+    background-color: #508bfc;
 }
 
 
@@ -18,7 +18,7 @@ div{
             /*box-shadow : 3px 3px 20px white ; */       
             border-width: 10px;
             border-style: solid;
-            border-color: lightskyblue;
+            border-color: #508bfc;
         }   }  
 
 @media ( max-width : 575px ) {
