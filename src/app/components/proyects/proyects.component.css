@@ -9,6 +9,10 @@
     width: auto;
     padding-left: 8%;
 }
+.contenedor2{
+    width: auto;
+    padding-left: 8%;
+}
 
 
 .parte1, .parte2{
@@ -40,3 +44,7 @@
     box-shadow: 5px 5px 5px black;
    
 }
+
+h2 {
+    text-decoration: underline;
+  }

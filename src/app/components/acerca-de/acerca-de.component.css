@@ -28,4 +28,10 @@ div{
         left: 3% ;
         top: 200px ;
        position: absolute;
-       width: 25% ;}}  
+       width: 25% ;
+    }
+}  
+
+h2 {
+    text-decoration: underline;
+  }
