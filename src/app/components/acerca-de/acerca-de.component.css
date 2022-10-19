@@ -2,7 +2,7 @@
     padding: 50px;
 }
 div{
-    background-color: #508bfc;
+    background-color: #1b222e;
 }
 
 
@@ -18,7 +18,7 @@ div{
             /*box-shadow : 3px 3px 20px white ; */       
             border-width: 10px;
             border-style: solid;
-            border-color: #508bfc;
+            border-color: #1d1e20;
         }   }  
 
 @media ( max-width : 575px ) {
@@ -32,6 +32,17 @@ div{
     }
 }  
 
-h2 {
+h1 {
     text-decoration: underline;
+    color:#9ba1b1;
   }
+  
+p{
+    color:beige;
+
+}
+h2,h3{
+    display: inline;
+    color:#a58956;
+
+}

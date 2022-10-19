@@ -11,19 +11,23 @@
             [outerStrokeWidth]="12"
             [innerStrokeWidth]="12"
             [outerStrokeColor]="'#011017'"
-            [innerStrokeColor]="'#DCDCDC'"
+            [innerStrokeColor]="'#a58956'"
             [outerStrokeGradient]="true"
             [outerStrokeGradientStopColor]="'#53a9ff'"
             [animation]="true"
             [animationDuration]="300"
             [showImage]="false"
             [imageSrc]="'../assets/skillsicons/html.png'"
-            [title]="(skill.nombre)"
+            [title]="(skill.nombre + ':')  +(skill.porcentaje + '%')"
             [showTitle]="true"
-            [titleColor]="'#212F3C'"
+            [titleColor]="'#f5f5dc'"
             [imageHeight]="70"
             [imageWidth]="70"
             [responsive]="true"
+            [showSubtitle]="false"
+            [showUnits]="false"
+            
+           
     ></circle-progress>
    <div>
     <td *ngIf="isLogged">

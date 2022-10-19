@@ -6,13 +6,20 @@
    }
    
    div{
-       background-color: #508bfc;
+       background-color: #1b222e;
    }
    
    h2,h3{
-       display: inline;
-   }
+    display: inline;
+    color:#a58956;
 
-   h2 {
+}
+
+h1 {
     text-decoration: underline;
+    color:#9ba1b1;
+  }
+
+  td{
+    color: #dfab77;
   }

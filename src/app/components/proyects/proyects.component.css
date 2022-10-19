@@ -1,12 +1,13 @@
 
 .row{
-    background-color: #508bfc;
+    background-color: #1b222e;
     padding: 20px;
     
 }
 
 .contenedor{
-    width: auto;
+    /*
+    width: auto; */
     padding-left: 8%;
 }
 .contenedor2{
@@ -39,12 +40,22 @@
 }
 .img-todo{
    
-    width: auto; 
+    width:max-content; 
     max-height: 100%; 
     box-shadow: 5px 5px 5px black;
    
 }
 
-h2 {
+h1 {
     text-decoration: underline;
+    color:#9ba1b1;
   }
+
+  h2,h3{
+    display: inline;
+    color:#a58956;
+}
+
+p{
+    color:beige;
+}
