@@ -8,11 +8,11 @@
 .contenedor{
     /*
     width: auto; */
-    padding-left: 8%;
+    padding-left: 10%;
 }
 .contenedor2{
     width: auto;
-    padding-left: 8%;
+    padding-left: 10%;
 }
 
 
@@ -49,6 +49,7 @@
 h1 {
     text-decoration: underline;
     color:#9ba1b1;
+    padding-left: 8%;
   }
 
   h2,h3{
